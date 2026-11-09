@@ -1,0 +1,29 @@
+
+# Maven build output
+target/
+out/
+*.class
+
+# Local SQLite database
+*.db
+*.db-shm
+*.db-wal
+
+# Test output and logs
+test_output.txt
+test_results.txt
+test_results.log
+*.log
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
